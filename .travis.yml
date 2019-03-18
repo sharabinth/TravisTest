@@ -1,5 +1,7 @@
 language: generic
 dist: xenial
 sudo: required
+before_install:
+  - chmod +x hello.sh
 script:
 - bash test.sh
